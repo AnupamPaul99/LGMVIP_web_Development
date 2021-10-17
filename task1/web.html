@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>ADVANTURE</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#events"></a>ABOUT</li>
+            <li><a href="#"></a>EXPLORE</li>
+            <li><a href="#"></a>TOURS</li>
+            <li class="ctn"><a href="#contact"></a>CONTACT</li>
+        </ul>
+        <img src="images/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events -->
+
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img/img1.png" alt="">
+                <h4>Everest Camp trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti fuga adipisci, repellendus
+                    temporibus laborum asperiores id ab deserunt veritatis! Qui maxime laborum eum a sapiente assumenda
+                    aut iure delectus.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="images/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti fuga adipisci, repellendus
+                    temporibus laborum asperiores id ab deserunt veritatis! Qui maxime laborum eum a sapiente assumenda
+                    aut iure delectus.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatibus laudantium debitis, nam
+                aliquid aliquam voluptatum ut recusandae iusto, id nesciunt molestiae sapiente nihil cum fuga officiis,
+                magni asperiores! Dignissimos!</p>
+            <a href="#" class="ctn">Leran More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt atque similique qui maiores
+                    aspernatur. Quasi, cupiditate corporis accusamus quaerat, numquam natus expedita aspernatur dolorem
+                    optio, dicta consectetur magnam quia!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img/img3.png" alt="">
+                    <img src="images/img/img4.png" alt="">
+                    <img src="images/img/img5.png" alt="">
+                    <img src="images/img/img6.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="contact">
+        <div class="contact-title">CONTACT INFO</div>
+        <div class="line"></div>
+        <div class="container">
+
+            <div class="map">
+                <p><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.1994730393117!2d77.09515201440402!3d28.503645696654896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1938456789c7%3A0x45a757aa37e73026!2sAmbience%20Mall!5e0!3m2!1sen!2sin!4v1632751142869!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </p>
+
+
+            </div>
+            <div class="form">
+               
+                <ul class="table">
+                    <li> <input type="text" placeholder="Name"> </li>
+                    <li> <input type="text" placeholder="Email Addess"></li>
+                    <li> <input type="text" placeholder="Subject"> </li>
+                    <li> <input type="text" placeholder="Message"> </li>
+                   <li> <a href="#" class="ctn">SUBMIT</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="paragraph">
+            <p>
+                The Company Name Inc.<br>
+                8901 Marmora Road,<br>
+                Glasgow, D04 89GR.
+                <br><br>
+                Freephone:+1 800 559 6580<br>
+                Telephone:+1 800 603 6035 <br>
+                FAX:+1 800 889 9898 <br>
+                E-mail: mail@demolink.org <br>
+            </p>
+
+        </div>
+        
+    </section>
+
+
+    <section class="footer">
+        <p>123 fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
+        <p>Copyright @ 2020 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+
+</body>
+
+</html>
